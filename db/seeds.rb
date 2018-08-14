@@ -8,6 +8,6 @@
 
 puts 'SETTING UP DEFAULT USER LOGIN'
 user1 = User.create! name: 'User 1', email: 'user1@example.com', password: '123456aA', password_confirmation: '123456aA'
-puts 'New user created: ' << user.name
+puts 'New user created: ' << user1.name
 user2 = User.create! name: 'User 2', email: 'user2@example.com', password: '123456aA', password_confirmation: '123456aA'
 puts 'New user created: ' << user2.name
