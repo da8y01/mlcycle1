@@ -155,3 +155,16 @@ test:
         read:
           mode: :primary
         max_pool_size: 1
+
+production:
+  clients:
+    default:
+      database: mlcycle1_staging
+      hosts:
+        - ds119692.mlab.com:19692
+      options:
+        read:
+          mode: :primary
+        max_pool_size: 1
+        user: admin
+        password: Admin12!
