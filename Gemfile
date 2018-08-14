@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.3.3p222'
+if ENV["RAILS_ENV"] == "production"
+  ruby '2.4.0'
+end
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
