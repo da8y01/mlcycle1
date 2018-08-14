@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 if ENV["RAILS_ENV"] == "production"
-  ruby '2.4.0'
+  ruby '2.3.3'
 end
 
 git_source(:github) do |repo_name|
